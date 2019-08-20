@@ -3,6 +3,8 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
-    <color name="buttonDigFondo">#464646</color>
+    <color name="buttonDigFondo">#868181</color>
     <color name="buttonDigTexto">#FFFFFF</color>
+    <color name="buttonOpFondo">#0288D1</color>
+    <color name="buttonOpTexto">#FFFFFF</color>
 </resources>
