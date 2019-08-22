@@ -10,11 +10,67 @@
 
 
     <LinearLayout
-        android:id="@+id/LayoutFilaUno"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:orientation="horizontal"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LayoutFilaOp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonDigC"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/buttonDigC_Text"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:background="@color/buttonDigFondo"
+            android:textColor="@color/buttonDigTexto"/>
+
+        <Button
+            android:id="@+id/buttonDigDSign"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/buttonDigSign_Text"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:background="@color/buttonDigFondo"
+            android:textColor="@color/buttonDigTexto"/>
+
+        <Button
+            android:id="@+id/buttonDigPotencia"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/buttonDigPotencia_Text"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:background="@color/buttonDigFondo"
+            android:textColor="@color/buttonDigTexto"/>
+
+        <Button
+            android:id="@+id/buttonDigPorcentaje"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/buttonDigPorcentaje_Text"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:background="@color/buttonOpFondo"
+            android:textColor="@color/buttonOpTexto"/>
+
+    </LinearLayout>
 
     <LinearLayout
         android:id="@+id/LayoutFilaDos"
@@ -60,12 +116,12 @@
             android:textColor="@color/buttonDigTexto"/>
 
         <Button
-            android:id="@+id/buttonDigDiv"
+            android:id="@+id/buttonDigMult"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="@string/buttonDigDiv_Text"
+            android:text="@string/buttonDigMult_Text"
             android:textSize="24sp"
             android:textStyle="bold"
             android:background="@color/buttonOpFondo"
@@ -116,12 +172,12 @@
             android:textColor="@color/buttonDigTexto"/>
 
         <Button
-            android:id="@+id/buttonDigMult"
+            android:id="@+id/buttonDigMenos"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="@string/buttonDigMult_Text"
+            android:text="@string/buttonDigMenos_Text"
             android:textSize="24sp"
             android:textStyle="bold"
             android:background="@color/buttonOpFondo"
@@ -172,12 +228,12 @@
             android:textColor="@color/buttonDigTexto"/>
 
         <Button
-            android:id="@+id/buttonDigMenos"
+            android:id="@+id/buttonDigMas"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="@string/buttonDigMenos_Text"
+            android:text="@string/buttonDigMas_Text"
             android:textSize="24sp"
             android:textStyle="bold"
             android:background="@color/buttonOpFondo"
@@ -196,7 +252,7 @@
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
+            android:layout_weight="2"
             android:text="@string/buttonDigCero_Text"
             android:textSize="24sp"
             android:textStyle="bold"
@@ -221,23 +277,12 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="@string/buttonDigIgual_Text"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            android:background="@color/buttonDigFondo"
-            android:textColor="@color/buttonDigTexto"/>
-
-        <Button
-            android:id="@+id/buttonDigMas"
-            style="?android:attr/buttonBarButtonStyle"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="@string/buttonDigMas_Text"
-            android:textSize="24sp"
-            android:textStyle="bold"
             android:background="@color/buttonOpFondo"
-            android:textColor="@color/buttonOpTexto" />
+            android:text="@string/buttonDigIgual_Text"
+            android:textColor="@color/buttonOpTexto"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
     </LinearLayout>
 
 </LinearLayout>
