@@ -7,4 +7,6 @@
     <color name="buttonDigTexto">#FFFFFF</color>
     <color name="buttonOpFondo">#0288D1</color>
     <color name="buttonOpTexto">#FFFFFF</color>
+    <color name="buttonAltFondo">#225D8C</color>
+    <color name="buttonAltTexto">#FFFFFF</color>
 </resources>

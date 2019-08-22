@@ -1,14 +1,12 @@
 
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:app="http://schemas.android.com/apk/res-auto"
-xmlns:tools="http://schemas.android.com/tools"
-android:id="@+id/LinearLayoutMain"
-android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayoutV"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
-android:orientation="vertical"
-tools:context=".MainActivity">
-
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
 <LinearLayout
     android:layout_width="match_parent"
@@ -29,21 +27,21 @@ tools:context=".MainActivity">
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:background="@color/buttonOpFondo"
-        android:text="@string/buttonDigParA_Text"
-        android:textColor="@color/buttonOpTexto"
+        android:background="@color/buttonAltFondo"
+        android:text="@string/buttonDigParIzq_Text"
+        android:textColor="@color/buttonAltTexto"
         android:textSize="24sp"
         android:textStyle="bold" />
 
     <Button
         android:id="@+id/buttonParC"
-        style="?android:attr/buttonBarButtonStyle"
+
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:background="@color/buttonOpFondo"
-        android:text="@string/buttonDigParC_Text"
-        android:textColor="@color/buttonOpTexto"
+        android:background="@color/buttonAltFondo"
+        android:text="@string/buttonDigParDer_Text"
+        android:textColor="@color/buttonAltTexto"
         android:textSize="24sp"
         android:textStyle="bold" />
 
@@ -53,11 +51,11 @@ tools:context=".MainActivity">
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
+        android:background="@color/buttonAltFondo"
         android:text="@string/buttonDigC_Text"
+        android:textColor="@color/buttonAltTexto"
         android:textSize="24sp"
-        android:textStyle="bold"
-        android:background="@color/buttonDigFondo"
-        android:textColor="@color/buttonDigTexto"/>
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/buttonDigDSign"
@@ -65,31 +63,31 @@ tools:context=".MainActivity">
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
+        android:background="@color/buttonAltFondo"
         android:text="@string/buttonDigSign_Text"
+        android:textColor="@color/buttonAltTexto"
         android:textSize="24sp"
-        android:textStyle="bold"
-        android:background="@color/buttonDigFondo"
-        android:textColor="@color/buttonDigTexto"/>
+        android:textStyle="bold" />
 
     <Button
-        android:id="@+id/buttonDigPotencia"
+        android:id="@+id/buttonDigModulo"
         style="?android:attr/buttonBarButtonStyle"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:text="@string/buttonDigPotencia_Text"
+        android:background="@color/buttonAltFondo"
+        android:text="@string/buttonOpMod_Text"
+        android:textColor="@color/buttonAltTexto"
         android:textSize="24sp"
-        android:textStyle="bold"
-        android:background="@color/buttonDigFondo"
-        android:textColor="@color/buttonDigTexto"/>
+        android:textStyle="bold" />
 
     <Button
-        android:id="@+id/buttonDigPorcentaje"
+        android:id="@+id/buttonDigDiv"
         style="?android:attr/buttonBarButtonStyle"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:text="@string/buttonDigPorcentaje_Text"
+        android:text="@string/buttonOpDiv_Text"
         android:textSize="24sp"
         android:textStyle="bold"
         android:background="@color/buttonOpFondo"
@@ -110,159 +108,23 @@ tools:context=".MainActivity">
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:text="@string/buttonDigUno_Text"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        android:background="@color/buttonDigFondo"
-        android:textColor="@color/buttonDigTexto"/>
-
-    <Button
-        android:id="@+id/buttonOpQ"
-        style="?android:attr/buttonBarButtonStyle"
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:text="@string/buttonDigUno_Text"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        android:background="@color/buttonDigFondo"
-        android:textColor="@color/buttonDigTexto"/>
-
-    <Button
-        android:id="@+id/buttonDigUno"
-        style="?android:attr/buttonBarButtonStyle"
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:text="@string/buttonDigUno_Text"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        android:background="@color/buttonDigFondo"
-        android:textColor="@color/buttonDigTexto"/>
-
-    <Button
-        android:id="@+id/buttonDigDos"
-        style="?android:attr/buttonBarButtonStyle"
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:text="@string/buttonDigDos_Text"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        android:background="@color/buttonDigFondo"
-        android:textColor="@color/buttonDigTexto"/>
-
-    <Button
-        android:id="@+id/buttonDigTres"
-        style="?android:attr/buttonBarButtonStyle"
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:text="@string/buttonDigTres_Text"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        android:background="@color/buttonDigFondo"
-        android:textColor="@color/buttonDigTexto"/>
-
-    <Button
-        android:id="@+id/buttonDigMult"
-        style="?android:attr/buttonBarButtonStyle"
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:text="@string/buttonDigMult_Text"
-        android:textSize="24sp"
-        android:textStyle="bold"
         android:background="@color/buttonOpFondo"
-        android:textColor="@color/buttonOpTexto"/>
-</LinearLayout>
-
-<LinearLayout
-    android:id="@+id/LayoutFilaTres"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_weight="1"
-    android:orientation="horizontal">
+        android:text="@string/buttonOpRaiz_Text"
+        android:textColor="@color/buttonOpTexto"
+        android:textSize="24sp"
+        android:textStyle="bold" />
 
     <Button
-        android:id="@+id/button5"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:text="Button" />
-
-    <Button
-        android:id="@+id/button6"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:text="Button" />
-
-    <Button
-        android:id="@+id/buttonDigCuatro"
+        android:id="@+id/buttonOpPot"
         style="?android:attr/buttonBarButtonStyle"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:text="@string/buttonDigCuatro_Text"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        android:background="@color/buttonDigFondo"
-        android:textColor="@color/buttonDigTexto"/>
-
-    <Button
-        android:id="@+id/buttonDigCinco"
-        style="?android:attr/buttonBarButtonStyle"
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:text="@string/buttonDigCinco_Text"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        android:background="@color/buttonDigFondo"
-        android:textColor="@color/buttonDigTexto"/>
-
-    <Button
-        android:id="@+id/buttonDigSeis"
-        style="?android:attr/buttonBarButtonStyle"
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:text="@string/buttonDigSeis_Text"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        android:background="@color/buttonDigFondo"
-        android:textColor="@color/buttonDigTexto"/>
-
-    <Button
-        android:id="@+id/buttonDigMenos"
-        style="?android:attr/buttonBarButtonStyle"
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:text="@string/buttonDigMenos_Text"
-        android:textSize="24sp"
-        android:textStyle="bold"
         android:background="@color/buttonOpFondo"
-        android:textColor="@color/buttonOpTexto"/>
-</LinearLayout>
-
-<LinearLayout
-    android:id="@+id/LayoutFilaCuatro"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_weight="1"
-    android:orientation="horizontal">
-
-    <Button
-        android:id="@+id/button7"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:text="Button" />
-
-    <Button
-        android:id="@+id/button8"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:text="Button" />
+        android:text="@string/buttonOpPotencia_Text"
+        android:textColor="@color/buttonOpTexto"
+        android:textSize="24sp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/buttonDigSiete"
@@ -301,12 +163,168 @@ tools:context=".MainActivity">
         android:textColor="@color/buttonDigTexto"/>
 
     <Button
+        android:id="@+id/buttonDigMult"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/buttonOpMult_Text"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:background="@color/buttonOpFondo"
+        android:textColor="@color/buttonOpTexto"/>
+</LinearLayout>
+
+<LinearLayout
+    android:id="@+id/LayoutFilaTres"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/buttonOpSen"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/buttonOpFondo"
+        android:text="@string/buttonOpSen_Text"
+        android:textColor="@color/buttonOpTexto"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonOpCos"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/buttonOpFondo"
+        android:text="@string/buttonOpCos_Text"
+        android:textColor="@color/buttonOpTexto"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonDigSeis"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/buttonDigSeis_Text"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:background="@color/buttonDigFondo"
+        android:textColor="@color/buttonDigTexto"/>
+
+    <Button
+        android:id="@+id/buttonDigCinco"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/buttonDigCinco_Text"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:background="@color/buttonDigFondo"
+        android:textColor="@color/buttonDigTexto"/>
+
+    <Button
+        android:id="@+id/buttonDigCuatro"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/buttonDigCuatro_Text"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:background="@color/buttonDigFondo"
+        android:textColor="@color/buttonDigTexto"/>
+
+    <Button
+        android:id="@+id/buttonDigMenos"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/buttonOpMenos_Text"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:background="@color/buttonOpFondo"
+        android:textColor="@color/buttonOpTexto"/>
+</LinearLayout>
+
+<LinearLayout
+    android:id="@+id/LayoutFilaCuatro"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/buttonOpTan"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/buttonOpFondo"
+        android:text="@string/buttonOpTan_Text"
+        android:textColor="@color/buttonOpTexto"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonOpCsc"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/buttonOpFondo"
+        android:text="@string/buttonOpCsc_Text"
+        android:textColor="@color/buttonOpTexto"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonDigTres"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/buttonDigTres_Text"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:background="@color/buttonDigFondo"
+        android:textColor="@color/buttonDigTexto"/>
+
+    <Button
+        android:id="@+id/buttonDigDos"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/buttonDigDos_Text"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:background="@color/buttonDigFondo"
+        android:textColor="@color/buttonDigTexto"/>
+
+    <Button
+        android:id="@+id/buttonDigUno"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/buttonDigUno_Text"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:background="@color/buttonDigFondo"
+        android:textColor="@color/buttonDigTexto"/>
+
+    <Button
         android:id="@+id/buttonDigMas"
         style="?android:attr/buttonBarButtonStyle"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:text="@string/buttonDigMas_Text"
+        android:text="@string/buttonOpMas_Text"
         android:textSize="24sp"
         android:textStyle="bold"
         android:background="@color/buttonOpFondo"
@@ -321,16 +339,26 @@ tools:context=".MainActivity">
     android:orientation="horizontal">
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/buttonOpSec"
+        android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:text="Button" />
+        android:background="@color/buttonOpFondo"
+        android:text="@string/buttonOpSec_Text"
+        android:textColor="@color/buttonOpTexto"
+        android:textSize="24sp"
+        android:textStyle="bold" />
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/buttonOpCtg"
+        android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:text="Button" />
+        android:background="@color/buttonOpFondo"
+        android:text="@string/buttonOpCtg_Text"
+        android:textColor="@color/buttonOpTexto"
+        android:textSize="24sp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/buttonDigCero"

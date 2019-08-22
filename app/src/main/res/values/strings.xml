@@ -12,22 +12,27 @@
     <string name="buttonDigNueve_Text">9</string>
     <string name="buttonDigPunto_Text">.</string>
     <string name="buttonDigIgual_Text">=</string>
-    <string name="buttonDigDiv_Text">/</string>
-    <string name="buttonDigMult_Text">*</string>
-    <string name="buttonDigMenos_Text">-</string>
-    <string name="buttonDigParA_Text">(</string>
-    <string name="buttonDigParC_Text">)</string>
-    <string name="buttonDigRaiz_Text">sqrt</string>
-    <string name="buttonDigInterrogacion_Text">_?</string>
-    <string name="buttonDigSen_Text">sen</string>
-    <string name="buttonDigCos_Text">cos</string>
-    <string name="buttonDigSec_Text">sec</string>
-    <string name="buttonDigCsc_Text">csc</string>
-    <string name="buttonDigTan_Text">tan</string>
-    <string name="buttonDigCtg_Text">ctg</string>
-    <string name="buttonDigMas_Text">+</string>
+    <string name="buttonDigParIzq_Text">(</string>
+    <string name="buttonDigParDer_Text">)</string>
     <string name="buttonDigC_Text">C</string>
     <string name="buttonDigSign_Text">+/-</string>
-    <string name="buttonDigPotencia_Text">^</string>
-    <string name="buttonDigPorcentaje_Text">%</string>
+    <string name="buttonDigPi_Text">pi</string>
+    <string name="buttonDigE_Text">e</string>
+
+    <string name="buttonOpDiv_Text">/</string>
+    <string name="buttonOpMult_Text">*</string>
+    <string name="buttonOpMenos_Text">-</string>
+    <string name="buttonOpMas_Text">+</string>
+
+    <string name="buttonOpRaiz_Text">√</string>
+    <string name="buttonOpPotencia_Text">^</string>
+    <string name="buttonOpFac_Text">x!</string>
+    <string name="buttonOpSen_Text">sen</string>
+    <string name="buttonOpCos_Text">cos</string>
+    <string name="buttonOpSec_Text">sec</string>
+    <string name="buttonOpCsc_Text">csc</string>
+    <string name="buttonOpTan_Text">tan</string>
+    <string name="buttonOpCtg_Text">ctg</string>
+    <string name="buttonOpMod_Text">%</string>
+
 </resources>
