@@ -16,8 +16,9 @@
     <string name="buttonDigParDer_Text">)</string>
     <string name="buttonDigC_Text">C</string>
     <string name="buttonDigSign_Text">+/-</string>
-    <string name="buttonDigPi_Text">pi</string>
+    <string name="buttonDigPi_Text">π</string>
     <string name="buttonDigE_Text">e</string>
+    <string name="buttonDigRad_Text">Rad</string>
 
     <string name="buttonOpDiv_Text">/</string>
     <string name="buttonOpMult_Text">*</string>
@@ -27,6 +28,7 @@
     <string name="buttonOpRaiz_Text">√</string>
     <string name="buttonOpPotencia_Text">^</string>
     <string name="buttonOpFac_Text">x!</string>
+    <string name="buttonOpLogn_Text">ln</string>
     <string name="buttonOpSen_Text">sen</string>
     <string name="buttonOpCos_Text">cos</string>
     <string name="buttonOpSec_Text">sec</string>
