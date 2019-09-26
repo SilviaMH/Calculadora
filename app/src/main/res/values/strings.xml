@@ -19,6 +19,7 @@
     <string name="buttonDigPi_Text">π</string>
     <string name="buttonDigE_Text">e</string>
     <string name="buttonDigRad_Text">Rad</string>
+    <string name="buttonDigDeg_Text">Deg</string>
 
     <string name="buttonOpDiv_Text">/</string>
     <string name="buttonOpMult_Text">*</string>
