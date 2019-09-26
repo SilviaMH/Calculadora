@@ -9,7 +9,7 @@
     tools:context=".MainActivity">
 
     <fragment
-        android:id="@+id/fragment3"
+        android:id="@+id/fragment"
         android:name="mx.ipn.cic.calculadora_b19.DisplayFragment"
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -22,14 +22,14 @@
         android:orientation="horizontal">
 
         <fragment
-            android:id="@+id/fragment4"
+            android:id="@+id/fragment3"
             android:name="mx.ipn.cic.calculadora_b19.ScientificFunctions"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1" />
 
         <fragment
-            android:id="@+id/fragment5"
+            android:id="@+id/fragment2"
             android:name="mx.ipn.cic.calculadora_b19.BasicFunctions"
             android:layout_width="0dp"
             android:layout_height="match_parent"

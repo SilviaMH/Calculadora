@@ -25,6 +25,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@color/buttonAltFondo"
+                android:onClick="onClick"
                 android:text="@string/buttonDigC_Text"
                 android:textColor="@color/buttonAltTexto"
                 android:textSize="24sp"
@@ -38,6 +39,7 @@
                 android:layout_weight="1"
                 android:background="@color/buttonAltFondo"
                 android:text="@string/buttonDigSign_Text"
+                android:onClick="onClick"
                 android:textColor="@color/buttonAltTexto"
                 android:textSize="24sp"
                 android:textStyle="bold" />
@@ -49,6 +51,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@color/buttonAltFondo"
+                android:onClick="onClick"
                 android:text="@string/buttonOpMod_Text"
                 android:textColor="@color/buttonAltTexto"
                 android:textSize="24sp"
@@ -60,11 +63,12 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/buttonOpDiv_Text"
-                android:textSize="24sp"
-                android:textStyle="bold"
                 android:background="@color/buttonOpFondo"
-                android:textColor="@color/buttonOpTexto"/>
+                android:onClick="onClick"
+                android:text="@string/buttonOpDiv_Text"
+                android:textColor="@color/buttonOpTexto"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
         </LinearLayout>
 
@@ -81,11 +85,12 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/buttonDigSiete_Text"
-                android:textSize="24sp"
-                android:textStyle="bold"
                 android:background="@color/buttonDigFondo"
-                android:textColor="@color/buttonDigTexto"/>
+                android:onClick="onClick"
+                android:text="@string/buttonDigSiete_Text"
+                android:textColor="@color/buttonDigTexto"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/buttonDigOcho"
@@ -93,11 +98,12 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/buttonDigOcho_Text"
-                android:textSize="24sp"
-                android:textStyle="bold"
                 android:background="@color/buttonDigFondo"
-                android:textColor="@color/buttonDigTexto"/>
+                android:onClick="onClick"
+                android:text="@string/buttonDigOcho_Text"
+                android:textColor="@color/buttonDigTexto"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/buttonDigNueve"
@@ -105,11 +111,12 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/buttonDigNueve_Text"
-                android:textSize="24sp"
-                android:textStyle="bold"
                 android:background="@color/buttonDigFondo"
-                android:textColor="@color/buttonDigTexto"/>
+                android:onClick="onClick"
+                android:text="@string/buttonDigNueve_Text"
+                android:textColor="@color/buttonDigTexto"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/buttonDigMult"
@@ -117,11 +124,12 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/buttonOpMult_Text"
-                android:textSize="24sp"
-                android:textStyle="bold"
                 android:background="@color/buttonOpFondo"
-                android:textColor="@color/buttonOpTexto"/>
+                android:onClick="onClick"
+                android:text="@string/buttonOpMult_Text"
+                android:textColor="@color/buttonOpTexto"
+                android:textSize="24sp"
+                android:textStyle="bold" />
         </LinearLayout>
 
         <LinearLayout
@@ -137,11 +145,12 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/buttonDigSeis_Text"
-                android:textSize="24sp"
-                android:textStyle="bold"
                 android:background="@color/buttonDigFondo"
-                android:textColor="@color/buttonDigTexto"/>
+                android:onClick="onClick"
+                android:text="@string/buttonDigSeis_Text"
+                android:textColor="@color/buttonDigTexto"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/buttonDigCinco"
@@ -149,11 +158,12 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/buttonDigCinco_Text"
-                android:textSize="24sp"
-                android:textStyle="bold"
                 android:background="@color/buttonDigFondo"
-                android:textColor="@color/buttonDigTexto"/>
+                android:onClick="onClick"
+                android:text="@string/buttonDigCinco_Text"
+                android:textColor="@color/buttonDigTexto"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/buttonDigCuatro"
@@ -161,11 +171,12 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/buttonDigCuatro_Text"
-                android:textSize="24sp"
-                android:textStyle="bold"
                 android:background="@color/buttonDigFondo"
-                android:textColor="@color/buttonDigTexto"/>
+                android:onClick="onClick"
+                android:text="@string/buttonDigCuatro_Text"
+                android:textColor="@color/buttonDigTexto"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/buttonDigMenos"
@@ -173,11 +184,12 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/buttonOpMenos_Text"
-                android:textSize="24sp"
-                android:textStyle="bold"
                 android:background="@color/buttonOpFondo"
-                android:textColor="@color/buttonOpTexto"/>
+                android:onClick="onClick"
+                android:text="@string/buttonOpMenos_Text"
+                android:textColor="@color/buttonOpTexto"
+                android:textSize="24sp"
+                android:textStyle="bold" />
         </LinearLayout>
 
         <LinearLayout
@@ -193,11 +205,12 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/buttonDigTres_Text"
-                android:textSize="24sp"
-                android:textStyle="bold"
                 android:background="@color/buttonDigFondo"
-                android:textColor="@color/buttonDigTexto"/>
+                android:onClick="onClick"
+                android:text="@string/buttonDigTres_Text"
+                android:textColor="@color/buttonDigTexto"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/buttonDigDos"
@@ -205,11 +218,12 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/buttonDigDos_Text"
-                android:textSize="24sp"
-                android:textStyle="bold"
                 android:background="@color/buttonDigFondo"
-                android:textColor="@color/buttonDigTexto"/>
+                android:onClick="onClick"
+                android:text="@string/buttonDigDos_Text"
+                android:textColor="@color/buttonDigTexto"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/buttonDigUno"
@@ -217,11 +231,12 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/buttonDigUno_Text"
-                android:textSize="24sp"
-                android:textStyle="bold"
                 android:background="@color/buttonDigFondo"
-                android:textColor="@color/buttonDigTexto"/>
+                android:onClick="onClick"
+                android:text="@string/buttonDigUno_Text"
+                android:textColor="@color/buttonDigTexto"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/buttonDigMas"
@@ -229,11 +244,12 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/buttonOpMas_Text"
-                android:textSize="24sp"
-                android:textStyle="bold"
                 android:background="@color/buttonOpFondo"
-                android:textColor="@color/buttonOpTexto"/>
+                android:onClick="onClick"
+                android:text="@string/buttonOpMas_Text"
+                android:textColor="@color/buttonOpTexto"
+                android:textSize="24sp"
+                android:textStyle="bold" />
         </LinearLayout>
 
         <LinearLayout
@@ -249,11 +265,12 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="2"
-                android:text="@string/buttonDigCero_Text"
-                android:textSize="24sp"
-                android:textStyle="bold"
                 android:background="@color/buttonDigFondo"
-                android:textColor="@color/buttonDigTexto"/>
+                android:onClick="onClick"
+                android:text="@string/buttonDigCero_Text"
+                android:textColor="@color/buttonDigTexto"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/buttonDigPunto"
@@ -261,11 +278,12 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/buttonDigPunto_Text"
-                android:textSize="24sp"
-                android:textStyle="bold"
                 android:background="@color/buttonDigFondo"
-                android:textColor="@color/buttonDigTexto"/>
+                android:onClick="onClick"
+                android:text="@string/buttonDigPunto_Text"
+                android:textColor="@color/buttonDigTexto"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/buttonDigIgual"
@@ -274,6 +292,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@color/buttonOpFondo"
+                android:onClick="onClick"
                 android:text="@string/buttonDigIgual_Text"
                 android:textColor="@color/buttonOpTexto"
                 android:textSize="24sp"
