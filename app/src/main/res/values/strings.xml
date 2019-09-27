@@ -31,12 +31,12 @@
     <string name="buttonOpFac_Text">x!</string>
     <string name="buttonOpLogn_Text">ln</string>
     <string name="buttonOpLog10_Text">log10</string>
-    <string name="buttonOpSen_Text">sen</string>
+    <string name="buttonOpSen_Text">sin</string>
     <string name="buttonOpCos_Text">cos</string>
     <string name="buttonOpSec_Text">sec</string>
     <string name="buttonOpCsc_Text">csc</string>
     <string name="buttonOpTan_Text">tan</string>
-    <string name="buttonOpCtg_Text">ctg</string>
+    <string name="buttonOpCtg_Text">cot</string>
     <string name="buttonOpMod_Text">%</string>
 
     <string name="textViewDisplay_Text">0.0</string>

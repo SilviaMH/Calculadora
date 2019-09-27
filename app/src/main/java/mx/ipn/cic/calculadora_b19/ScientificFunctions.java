@@ -87,7 +87,7 @@ public class ScientificFunctions extends Fragment implements View.OnClickListene
 
     //Interface for communication
     public interface SenderFragmentListener {
-        void getScientificCalculatorInput(String input);
+        void getScientificCalculatorInput(String nombre);
     }
 
     @Override
