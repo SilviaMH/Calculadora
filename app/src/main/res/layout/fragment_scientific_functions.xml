@@ -19,15 +19,16 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/buttonDigRad"
+                android:id="@+id/buttonFunLog10"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@color/buttonAltFondo"
-                android:text="@string/buttonDigRad_Text"
+                android:text="@string/buttonOpLog10_Text"
+                android:textAllCaps="false"
                 android:textColor="@color/buttonAltTexto"
-                android:textSize="24sp"
+                android:textSize="30sp"
                 android:textStyle="bold" />
 
             <Button
@@ -39,7 +40,7 @@
                 android:background="@color/buttonAltFondo"
                 android:text="@string/buttonDigParIzq_Text"
                 android:textColor="@color/buttonAltTexto"
-                android:textSize="24sp"
+                android:textSize="30sp"
                 android:textStyle="bold" />
 
             <Button
@@ -51,7 +52,7 @@
                 android:background="@color/buttonAltFondo"
                 android:text="@string/buttonDigParDer_Text"
                 android:textColor="@color/buttonAltTexto"
-                android:textSize="24sp"
+                android:textSize="30sp"
                 android:textStyle="bold" />
         </LinearLayout>
 
@@ -70,10 +71,10 @@
                 android:layout_weight="1"
                 android:background="@color/buttonOpFondo"
                 android:text="@string/buttonOpFac_Text"
+                android:textAllCaps="false"
                 android:textColor="@color/buttonOpTexto"
-                android:textSize="24sp"
-                android:textStyle="bold"
-                android:textAllCaps="false"/>
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/buttonOpRaiz"
@@ -84,8 +85,9 @@
                 android:background="@color/buttonOpFondo"
                 android:text="@string/buttonOpRaiz_Text"
                 android:textColor="@color/buttonOpTexto"
-                android:textSize="24sp"
-                android:textStyle="bold" />
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textAllCaps="false"/>
 
             <Button
                 android:id="@+id/buttonOpPot"
@@ -96,7 +98,7 @@
                 android:background="@color/buttonOpFondo"
                 android:text="@string/buttonOpPotencia_Text"
                 android:textColor="@color/buttonOpTexto"
-                android:textSize="24sp"
+                android:textSize="30sp"
                 android:textStyle="bold" />
         </LinearLayout>
 
@@ -108,16 +110,16 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/buttonOpLog"
+                android:id="@+id/buttonOpLn"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@color/buttonOpFondo"
                 android:text="@string/buttonOpLogn_Text"
-                android:textColor="@color/buttonOpTexto"
                 android:textAllCaps="false"
-                android:textSize="24sp"
+                android:textColor="@color/buttonOpTexto"
+                android:textSize="30sp"
                 android:textStyle="bold" />
 
             <Button
@@ -128,8 +130,9 @@
                 android:layout_weight="1"
                 android:background="@color/buttonOpFondo"
                 android:text="@string/buttonOpSen_Text"
+                android:textAllCaps="false"
                 android:textColor="@color/buttonOpTexto"
-                android:textSize="24sp"
+                android:textSize="30sp"
                 android:textStyle="bold" />
 
             <Button
@@ -140,8 +143,9 @@
                 android:layout_weight="1"
                 android:background="@color/buttonOpFondo"
                 android:text="@string/buttonOpCos_Text"
+                android:textAllCaps="false"
                 android:textColor="@color/buttonOpTexto"
-                android:textSize="24sp"
+                android:textSize="30sp"
                 android:textStyle="bold" />
         </LinearLayout>
 
@@ -161,7 +165,7 @@
                 android:background="@color/buttonOpFondo"
                 android:text="@string/buttonDigPi_Text"
                 android:textColor="@color/buttonOpTexto"
-                android:textSize="24sp"
+                android:textSize="30sp"
                 android:textStyle="bold" />
 
             <Button
@@ -172,8 +176,9 @@
                 android:layout_weight="1"
                 android:background="@color/buttonOpFondo"
                 android:text="@string/buttonOpTan_Text"
+                android:textAllCaps="false"
                 android:textColor="@color/buttonOpTexto"
-                android:textSize="24sp"
+                android:textSize="30sp"
                 android:textStyle="bold" />
 
             <Button
@@ -184,8 +189,9 @@
                 android:layout_weight="1"
                 android:background="@color/buttonOpFondo"
                 android:text="@string/buttonOpCsc_Text"
+                android:textAllCaps="false"
                 android:textColor="@color/buttonOpTexto"
-                android:textSize="24sp"
+                android:textSize="30sp"
                 android:textStyle="bold" />
         </LinearLayout>
 
@@ -206,7 +212,7 @@
                 android:text="@string/buttonDigE_Text"
                 android:textAllCaps="false"
                 android:textColor="@color/buttonOpTexto"
-                android:textSize="24sp"
+                android:textSize="30sp"
                 android:textStyle="bold" />
 
             <Button
@@ -217,8 +223,9 @@
                 android:layout_weight="1"
                 android:background="@color/buttonOpFondo"
                 android:text="@string/buttonOpSec_Text"
+                android:textAllCaps="false"
                 android:textColor="@color/buttonOpTexto"
-                android:textSize="24sp"
+                android:textSize="30sp"
                 android:textStyle="bold" />
 
             <Button
@@ -229,8 +236,9 @@
                 android:layout_weight="1"
                 android:background="@color/buttonOpFondo"
                 android:text="@string/buttonOpCtg_Text"
+                android:textAllCaps="false"
                 android:textColor="@color/buttonOpTexto"
-                android:textSize="24sp"
+                android:textSize="30sp"
                 android:textStyle="bold" />
         </LinearLayout>
     </LinearLayout>

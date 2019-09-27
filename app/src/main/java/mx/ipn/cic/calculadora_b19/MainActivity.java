@@ -4,7 +4,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity implements BasicFunctions.SenderFragmentListener  {
+public class MainActivity extends AppCompatActivity implements BasicFunctions.SenderFragmentListener, ScientificFunctions.SenderFragmentListener  {
 
 
     private final String ESPACIO = " ";
@@ -14,6 +14,14 @@ public class MainActivity extends AppCompatActivity implements BasicFunctions.Se
     private final String IGUAL = "=";
     private final String SIGNO = "+/-";
     private final String NEGATIVO = "-";
+    private final String PAR_A = "(";
+    private final String PAR_C = ")";
+    private final String CONST_PI = "π";
+    private final String CONST_E = "e";
+    private final String OP_FAC = "x!";
+    private final String FUN_FAC = "fact (";
+    private final String OP_POT = "^";
+    private final String PUNTO = ".";
     private String expInfija;
 
 
@@ -38,8 +46,31 @@ public class MainActivity extends AppCompatActivity implements BasicFunctions.Se
         } else if (entrada.equals(SIGNO)) {
             expInfija += NEGATIVO;
             sendToDisplay(expInfija);
+        } else if (entrada.equals(PUNTO)) {
+            expInfija += entrada;
+            sendToDisplay(expInfija);
         } else {
             expInfija += entrada + ESPACIO;
+            sendToDisplay(expInfija);
+        }
+    }
+
+    @Override
+    public void getScientificCalculatorInput(String entrada) {
+        if (entrada.equals(PAR_A) | entrada.equals(PAR_C) | entrada.equals(OP_POT)) {
+            expInfija += entrada + ESPACIO;
+            sendToDisplay(expInfija);
+        } else if (entrada.equals(CONST_E)) {
+            expInfija += Math.E + ESPACIO ;
+            sendToDisplay(expInfija);
+        } else if (entrada.equals(CONST_PI)) {
+            expInfija += Math.PI + ESPACIO ;
+            sendToDisplay(expInfija);
+        } else if (entrada.equals(OP_FAC)) {
+            expInfija += FUN_FAC + ESPACIO ;
+            sendToDisplay(expInfija);
+        } else {
+            expInfija += entrada + ESPACIO + PAR_A + ESPACIO ;
             sendToDisplay(expInfija);
         }
     }

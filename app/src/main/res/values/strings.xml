@@ -26,10 +26,11 @@
     <string name="buttonOpMenos_Text">-</string>
     <string name="buttonOpMas_Text">+</string>
 
-    <string name="buttonOpRaiz_Text">√</string>
+    <string name="buttonOpRaiz_Text">sqrt</string>
     <string name="buttonOpPotencia_Text">^</string>
     <string name="buttonOpFac_Text">x!</string>
     <string name="buttonOpLogn_Text">ln</string>
+    <string name="buttonOpLog10_Text">log10</string>
     <string name="buttonOpSen_Text">sen</string>
     <string name="buttonOpCos_Text">cos</string>
     <string name="buttonOpSec_Text">sec</string>
