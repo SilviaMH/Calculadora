@@ -4,7 +4,18 @@ Calculadora para dispositivos móviles, que en orientación vertical realiza las
 ## Análisis 📋
 Para realizar el cálculo de las expresiones matemáticas ingresadas en la calculadora, se diseñó un algoritmo para convertir dichas expresiones de notación *infija a postfija*. Para ello se empleó una pila auxiliar y se propuso una tabla de prioridad de los operadores y funciones de la calculadora. 
 
-Dada una expresión matemática, se analiza cadaelemento que la compone de izquierda a derecha. Si el elemento es un número se escribe directamente en la expresión de salida de la notación postfija, de lo contrario se revisa la tabla de prioridad para realizar alguna operación sobre la pila. El algoritmo
+| Token/Pila |  +  |  -  |  *  |  /  |  %  |  ^  | función |  (  |  )  |
+|     +      |  1  |  1  |  1  |  1  |  1  |  1  |    1    |  0  | N/A |
+|     -      |  1  |  1  |  1  |  1  |  1  |  1  |    1    |  0  | N/A |
+|     *      |  0  |  0  |  1  |  1  |  1  |  1  |    1    |  0  | N/A |
+|     /      |  0  |  0  |  1  |  1  |  1  |  1  |    1    |  0  | N/A |
+|     %      |  0  |  0  |  1  |  1  |  1  |  1  |    1    |  0  | N/A |
+|     ^      |  0  |  0  |  0  |  0  |  0  |  0  |    1    |  0  | N/A |
+|  función   |  0  |  0  |  0  |  0  |  0  |  0  |    1    |  0  | N/A |
+|     (      |  0  |  0  |  0  |  0  |  0  |  0  |    0    |  0  | N/A |
+|     )      | N/A | N/A | N/A | N/A | N/A | N/A |   N/A   | N/A | N/A |
+
+Dada una expresión matemática, se analiza cada elemento que la compone de izquierda a derecha. Si el elemento es un número se escribe directamente en la expresión de salida de la notación postfija, de lo contrario se revisa la tabla de prioridad para realizar alguna operación sobre la pila. El algoritmo
 funciona bajo las siguientes reglas:
 
 1. Si la pila está vacía, se inserta el operador o función en turno en la pila.
@@ -29,8 +40,3 @@ Se desarrollaron las clases para la conversión a notación postfija y la evalua
 ## Autor ✒️
 
 * **Silvia Martínez H** 
-
-| Primer encabezado | Segundo encabezado |
-| ------------- | ------------- |
-| Contenido de la celda  | Contenido de la celda  |
-| Contenido de la celda  | Contenido de la celda  |
