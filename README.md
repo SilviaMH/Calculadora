@@ -5,7 +5,7 @@ Calculadora para dispositivos móviles, que en orientación vertical realiza las
 Para realizar el cálculo de las expresiones matemáticas ingresadas en la calculadora, se diseñó un algoritmo para convertir dichas expresiones de notación *infija a postfija*. Para ello se empleó una pila auxiliar y se propuso una tabla de prioridad de los operadores y funciones de la calculadora. 
 
 | Token/Pila |  +  |  -  |  *  |  /  |  %  |  ^  | función |  (  |  )  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | 
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | 
 |     +      |  1  |  1  |  1  |  1  |  1  |  1  |    1    |  0  | N/A |
 |     -      |  1  |  1  |  1  |  1  |  1  |  1  |    1    |  0  | N/A |
 |     *      |  0  |  0  |  1  |  1  |  1  |  1  |    1    |  0  | N/A |
@@ -21,8 +21,8 @@ funciona bajo las siguientes reglas:
 
 1. Si la pila está vacía, se inserta el operador o función en turno en la pila.
 2. Si hay elementos en la pila y aún quedan elementos en la expresión, se siguen las reglas de la tabla de prioridad:
-  2.1 Si el elemento que se encuentra arriba de la pila tiene mayor prioridad que el elemento de la expresión (token), se saca de la pila y se escribe en la expresión en notación postfija.
-  2.2 De lo contrario, se mete el token a la pila.
+  - 2.1 Si el elemento que se encuentra arriba de la pila tiene mayor prioridad que el elemento de la expresión (token), se saca de la pila y se escribe en la expresión en notación postfija.
+  - 2.2 De lo contrario, se mete el token a la pila.
 3. Cuando el token es un paréntesis que cierra, se sacan los elementos de la pila y se van colocando en la expresión de salida hasta que se encuentra el paréntesis que abre. Los paréntesis no se deben incluir en la salida de la conversión.
 4. Si ya no quedan más tokens, se extraen todos los elementos de la pila y se agregan a la salida de la conversión.
 
