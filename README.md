@@ -5,6 +5,7 @@ Calculadora para dispositivos móviles, que en orientación vertical realiza las
 Para realizar el cálculo de las expresiones matemáticas ingresadas en la calculadora, se diseñó un algoritmo para convertir dichas expresiones de notación *infija a postfija*. Para ello se empleó una pila auxiliar y se propuso una tabla de prioridad de los operadores y funciones de la calculadora. 
 
 | Token/Pila |  +  |  -  |  *  |  /  |  %  |  ^  | función |  (  |  )  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | 
 |     +      |  1  |  1  |  1  |  1  |  1  |  1  |    1    |  0  | N/A |
 |     -      |  1  |  1  |  1  |  1  |  1  |  1  |    1    |  0  | N/A |
 |     *      |  0  |  0  |  1  |  1  |  1  |  1  |    1    |  0  | N/A |
